@@ -27,4 +27,16 @@ function addTodoList (e) {
     input.value = "";
 }
 
+function removeAddTodo (e) {
+    const target = e.target;
+    if (target.classList[0] === "btn-two"){
+        const item = target.parentElement;
+        item.remove();
+    }
+    if (target.classList[0] === "btn-one"){
+        const item = target.parentElement;
+        item.classList.toggle("task-complete");
+    }
+}
+
 

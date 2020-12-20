@@ -51,16 +51,17 @@ h1{
     align-items: center;
 }
 .add-todo div li {
-    height: 34px;
+    height: 39px;
     width: 200px;
     background-color: white;
     outline: none;
     border: none;
     padding-top: 6px;
     font-size: 20px;
+    transition: all .9s ease;
 }
 .btn-one, .btn-two{
-    height: 34px;
+    height: 39px;
     width: 40px;
     background: linear-gradient(to right, #f7d994,#fc8f93);
     outline: none;
@@ -69,7 +70,7 @@ h1{
     cursor: pointer;
     font-size: 1.2em;
 }
-.cross{
+.task-complete{
     text-decoration: line-through;
-    opacity: .5;
+    opacity: .6;
 }
